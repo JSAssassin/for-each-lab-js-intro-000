@@ -5,12 +5,12 @@ function iterativeLog(array){
 }
 
 
-// function iterate(callback){
-//   let arr = [1,2,3,4];
-//   arr.forEach(callback);
-//   return arr;
-// }
-//
-// function doToArray(array, callback){
-//   array.forEach(callback);
-// }
+function iterate(callback){
+  let arr = [1,2,3,4];
+  arr.forEach(callback);
+  return arr;
+}
+
+function doToArray(array, callback){
+  array.forEach(callback);
+}
